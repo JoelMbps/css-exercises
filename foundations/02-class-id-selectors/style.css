@@ -1,0 +1,21 @@
+.number {
+font-family: Verdana, 'DejaVu Sans', 'sans-serif';
+background-color: rgb(254, 184, 160);
+}
+
+/* browser's font is different to desired outcome */
+#numberTwo {
+    color: rgb(0, 0, 255);    
+    font-size: 36px;
+}
+
+.Three {
+    font-size: 24px;
+}
+
+/* browser's font is different to desired outcome */
+#numberFour {
+    background-color: rgb(121, 251, 121);
+    font-size: 24px;
+    font-weight: bold;
+}
