@@ -18,23 +18,24 @@ body{
   color: white;
   font-weight: bold;
 } 
-/*  */
+ 
 #cancel-button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
 }
-/*  */
+ 
 .button {
   font-size: 20px;
 }
 
-.child {
+/* based on HTML structure I see it as div+div>div being the 2nd div a sibling but the content says otherwise */
+div.child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
 
-div.text {
+.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
