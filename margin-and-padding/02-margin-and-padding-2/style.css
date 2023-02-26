@@ -37,7 +37,7 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
-  /* added */
+  /* added - <br> was initially used instead of block display */
   padding: 8px 24px;
   display: block;
   margin: 0 auto;
